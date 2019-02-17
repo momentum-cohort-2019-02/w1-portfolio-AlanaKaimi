@@ -2,50 +2,128 @@
 <html>
     <head>  
         <meta name="viewport" content="initial-scale=1.0,width=device-width">             
-        <link rel="stylesheet" type="text/css" href="portfolio.css">   
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">   
         <title>AJ Bryce</title>
     </head>
     <body>
 <!-- Header  -->
-        <header>
-            <h1>AJ Alana Ka'imi Bryce</h1> 
+    <div class="page-container">
+        <div class="content-wrap">
+        
+<!-- Header  -->
+            <header>
+                <h1>AJ <span class="lighter">Alana Ka'imi</span> Bryce</h1>
 <!-- Navigation -->
-            <nav>
-                <ul>
-                    <li> <a href="index.html" aria-label="Home"> Home</a></li> 
-                    <li><a href="projects.html" aria-label="projects">Projects</a></li> 
-                    <li><a href="resume.html" aria-label="Resume">Resume</a></li>
-                </ul>
-            </nav>
+                <nav>
+                    <ul>
+                        <li> <a href="index.html" aria-label="Home"><b>~ </b>  Home</a></li> 
+                        <li><a href="projects.html" aria-label="projects"><i class="fas fa-code"></i>Projects</a></li> 
+                        <li><a href="resume.html" aria-label="Resume"><i class="far fa-user-circle"></i>Resume</a></li>
+                    </ul>
+                </nav>
 
-        </header>
+            </header>           
 
 <!-- Projects -->
    <!-- Projects library -->
 <!-- <a href="" target="blank" alt=""></a> -->
 <!-- <img src="" alt=""> -->
    <!-- Projects library -->
-        <section>
-         <h2>Employment</h2> 
-         <p>
+            
+        <section class="resume-section contact">
+            <h2>Contact:</h2>
+            <address>
+                <dl>
+                    <dt><i class="fas fa-map-marker-alt"></i>Location</dt>
+                    <dd>Chapel Hill, NC</dd>
 
-         <br> 
-           
-         </p>  
-
-         <h2>Education</h2> 
-         <p>
-
-         <br> 
-           
-         </p>  
-
+                    <dt><a href="mailto:AjAlanaKaimi@gmail.com" target="_top" aria-label="email AJ"><i class="fas fa-envelope"></i>Email</a></dt>
+                </dl>
+            </address>
         </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li class="rating">
+                    Expert
+                    <ul class="skill-list">
+                        <li class="skill">HTML</li>
+                        <li class="skill">CSS</li>
+                        <li class="skill">Photoshop</li>
+                    </ul>
+                </li>
+                <li class="rating">
+                    Proficient
+                    <ul class="skill-list">
+                        <li class="skill">InDesign</li>
+                        <li class="skill">Illustrator</li>
+                    </ul>
+                </li>
+                <li class="rating">
+                    Interested in learning
+                    <ul class="skill-list">
+                        <li class="skill">Python</li>
+                        <li class="skill">React</li>
+                        <li class="skill">Machine Learning</li>
+                        <li class="skill">Artificial Empathy</li>
+                    </ul>
+                </li>
 
-<!-- Footer -->
-        <footer>
+            </ul>
+        </section>
+        <section>  
+            <h2>Employment</h2> 
+            <ol class="employ-list">
+                <li class="employ">
+                    <h3 class="company"> Durham Coop Market</h3>
+                    <p class="dates">April 2018 - February 2019</p>
+                    <p class="position">Grocery Department Manager</p>
+                    <p class="description">
+                        Managed a team of 6 awesome employees focusing on workplace care, systems development, and inventory management.
+                    </p>
+                </li>
+                <li class="employ">
+                <h3 class="company">Weaver Street Market</h3>
+                <p class="dates">April 2007 - April 2018</p>
+                <p class="position">Systems Development Specialist
+                </p>
+                <p class="description">
+                        Bacon ipsum dolor amet ad ball tip pariatur cow drumstick ex venison. Jerky ea meatloaf doner tri-tip fugiat porchetta andouille salami anim. Short loin officia elit consectetur quis. Anim et culpa tenderloin tail ut. Dolore bresaola hamburger short ribs, velit picanha commodo.
+                </p>
+                </li>
+            </ol>
+        </section>
+        <section>  
+            <h2>Education</h2> 
+            <ol class="employ-list">
+                <li class="educate">
+                    <h3 class="school">Southwestern Illinois College</h3>
+                    <p class="study">Various</p>
+                    <p class="dates">Summer 2002 - Fall 2013</p>
+                    <p class="description">Completed various courses to enrich skills and experience in Marketing, Communications, Graphic Design, and Web Development.</p>
+                </li>
+                <li class="educate">
+                        <h3 class="school">Ranken Technical College</h3>
+                        <p class="study">Associate in Architectural Technology</p>
+                        <p class="dates">Fall 2002 - Fall 2005</p>
+                        <p class="description">Studied Architectural Technology with a focus on environmental design. Developed and applied design strategies informed by the impact of organic and created environments on individual behavior and community wellbeing.</p>
+                    </li>
 
-        </footer>
+            </ol>
+             
 
+            </section>
+
+    <!-- Footer -->
+            <footer class="footer">
+            
+                <i class="far fa-copyright">2019</i>
+                    <a href="mailto:ajalanakaimi@gmail.com" target="_top" aria-label="email AJ"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/alanakaimi_visions" target="blank" aria-label="AJ's Instagram" ><i class="fab fa-instagram"></i></a>
+                    <a href="" aria-label="AJ's github"><i class="fab fa-github"></i></a>
+            </footer>
+        </div>
+    </div>
     </body>
 </html>

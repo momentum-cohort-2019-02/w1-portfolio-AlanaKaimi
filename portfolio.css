@@ -7,31 +7,33 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;    
 }
-h1 {
-    text-decoration: underline;
-    padding-bottom: 6px;
+.page-container {
+    position: relative;
+    min-height: 100%;
+    border: 1px solid rgb(235, 232, 232); 
+    padding:10px; 
+    border-radius: 10px;   
 }
-.lighter {
-    color: rgb(172, 182, 192);
-}
-img {
-    max-width: 100%;
-}
+.content-wrap {
+    padding-bottom: 2.5rem;
+}  
+
+
+
+
+/* Navigation */
 header {
     margin: 2px;
     padding-bottom: 20px;
-    
-}
-
-/* Navigation */
+}    
 nav {
     list-style: none;
     display: inline; 
 }
 nav li {
-    padding-right: 45px;
+    padding-right: 25px;
     list-style: none;
     display: inline;
     justify-content: space-between;
@@ -48,32 +50,123 @@ nav a:visited {
     color: black;
 }
 
-p {
-    padding: 10px;
+
+
+
+
+/* Universal styles */
+h1 {
+    text-decoration: underline;
+    padding-bottom: 6px;
 }
 
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 10px;
+}
 
+p {
+    /* padding: 15px; */
+}
 h2 {
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
 }
 p {
-
+    margin-left: 10px;
 }
 address {
 
 }
-.project {
-    
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.lighter {
+    color: rgb(172, 182, 192);
+}
+
+/* Home page styles */
+.home-pic {
+    transform: rotate(-90deg);
+    float: left;
+    max-width: 25%;
+}
+
+
+
+
+
+/* Icon styles */
+i {
+    padding-right: 5px;
+}
+
+
+
+
+
+
+/* Project styles */
+.project { 
+
 }
 .project img {
-    max-width: 65%;
-    border-radius: 10px;
+    max-width: 50%;
+    /* margin-right: 10px;
+    margin-left: 20px; */
+    border-radius: 5px;
+    float: left;
 }
 .project h2{
-    padding-bottom: 15px; 
-    
+    padding-bottom: 10px; 
+    margin-left: 5px;   
 }
-.flex {
+.project p {
+    margin-left: 10px;
+}
+
+
+
+
+
+/* Resume styles */
+.resume-section{
+    margin: 2rem 0;
+    padding-left: 10px;
+}
+.resume-section dt {
+    margin-top: 1rem;
+}
+.resume-section dd {
+    margin-left: 2rem;
+}
+.contact {
+
+}
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+.contact a:visited {
+    list-style: none;
+    color: black;
+}
+.rating {
+    margin-bottom: 1rem;
+    list-style-type: none;
+    font-weight: bold;
+}
+.skill {
+    margin-right: 2rem;
+    font-weight: normal;
+}
+.skill ul {
+    list-style-type: none;
+}
+.skill-list{
+    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
 }
@@ -83,18 +176,57 @@ address {
 .link {
 
 }
+
 .employ {
-
+    margin-bottom: 2rem;
 }
+.employ-list {
+    list-style-type: none;
+}
+.employ .company {
+    width: 30%;
+}
+.employ .dates {
+    width: 30%;
+}
+.employ .description {
+    width: 100%;
+    margin-top: 1rem;
+    padding-right: 10px;
+} 
 .educate {
-
+    margin-bottom: 2rem;
+}
+.educate .school {
+    width: 50%;
+}
+.educate .dates {
+    width: 50%;
+}
+.educate .study {
+    font-weight: bold;
+}
+.educate .description {
+        width: 100%;
+        margin-top: 1rem;
+        padding-right: 10px;
 }
 
 
-footer {
-    margin-top: 20px;
+
+
+
+/* Footer styles */
+.footer { 
     border-top: 1px solid black;
-    font-size: .8rem;
+}
+.footer a {
 
 }
 
+@media screen and (min-width: 768px) {
+    .employ {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
