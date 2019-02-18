@@ -14,7 +14,10 @@ body {
     min-height: 100%;
     border: 1px solid rgb(235, 232, 232); 
     padding:10px; 
-    border-radius: 10px;   
+    border-radius: 10px;  
+}
+.container-flow {
+    display: flow-root;
 }
 .content-wrap {
     padding-bottom: 2.5rem;
@@ -86,9 +89,14 @@ address {
     transform: rotate(-90deg);
     float: left;
     max-width: 25%;
-    padding-top: 15px;
 }
-
+.about {
+    height: 100%;
+}
+.about h2 {
+    font-size: 3rem;
+    
+}
 
 /* Icon styles */
 i {
@@ -156,9 +164,7 @@ i {
     display: flex;
     flex-wrap: wrap;
 }
-.about {
 
-}
 .link {
 
 }
