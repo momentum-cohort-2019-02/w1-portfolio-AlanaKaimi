@@ -20,9 +20,6 @@ body {
     padding-bottom: 2.5rem;
 }  
 
-
-
-
 /* Navigation */
 header {
     margin: 2px;
@@ -49,9 +46,6 @@ nav a:hover {
 nav a:visited {
     color: black;
 }
-
-
-
 
 
 /* Universal styles */
@@ -92,19 +86,14 @@ address {
     transform: rotate(-90deg);
     float: left;
     max-width: 25%;
+    padding-top: 15px;
 }
-
-
-
 
 
 /* Icon styles */
 i {
     padding-right: 5px;
 }
-
-
-
 
 
 
@@ -126,9 +115,6 @@ i {
 .project p {
     margin-left: 10px;
 }
-
-
-
 
 
 /* Resume styles */
@@ -213,20 +199,24 @@ i {
 }
 
 
-
-
-
 /* Footer styles */
 .footer { 
     border-top: 1px solid black;
 }
 .footer a {
-
+    color: black;
 }
-
+.footer a:visited {
+    color: black;
+}
+.footer i {
+    size: 2rem;
+}
 @media screen and (min-width: 768px) {
     .employ {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
     }
+      
+}
